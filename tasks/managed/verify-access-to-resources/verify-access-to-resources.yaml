@@ -57,7 +57,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: verify-access-to-resources
-      image: quay.io/konflux-ci/release-service-utils@sha256:6d4dee971855fe55724c16b049e21a396287b53766ffd3fa984ee91895e9f099
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:a55acac5781315dc1b3b7405e39f32f33395796f1080a61b4de7f1fb50b25f4c
       computeResources:
         limits:
           memory: 100Mi

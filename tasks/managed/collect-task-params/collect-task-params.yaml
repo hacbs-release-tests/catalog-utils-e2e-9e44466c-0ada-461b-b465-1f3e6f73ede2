@@ -124,7 +124,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: collect-task-params
-      image: quay.io/konflux-ci/release-service-utils@sha256:ca926981d89c5a92a4c4d2c25cac777c4f726d87581fe95646b95a8bdd8bdb5a
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:a55acac5781315dc1b3b7405e39f32f33395796f1080a61b4de7f1fb50b25f4c
       computeResources:
         limits:
           memory: 192Mi
